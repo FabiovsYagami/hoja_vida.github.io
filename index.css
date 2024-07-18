@@ -1,0 +1,323 @@
+/*Indice*/
+body{
+    background-color: rgb(39, 35, 35);
+    margin: 0%;
+}
+.indice{
+     /* position: fixed; Se utiliza para dejar en la misma 
+    posicision el objeto asi se mueva la pantalla*/
+    width: 100%;
+    background: linear-gradient(to right, rgb(43, 41, 41),rgb(90, 89, 89));
+    display: flex;
+    /*Se utiliza para dejar en la misma 
+    posicision el objeto asi se mueva la pantalla*/
+    column-count: 5;
+    column-rule:  30px;
+    position: sticky;
+
+
+}
+.indice p{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+.indice a{
+    color: white;
+    margin-left: 5%;
+    font: Verdana normal 400 normal 16px/22px Arial, Verdana, sans-serif;
+    text-decoration-line:none;
+}
+.logo{ 
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 30px;
+    margin: 0%;
+
+}
+p{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+h3{
+    width: 30%;
+    color: white;
+}
+/*Banner*/
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 450px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+
+}
+.nom_banner{
+    font-size: 300%;
+}
+.nom_banner, .tit_banner, #prof_banner{
+    margin: 0px;
+    margin-left: 5%;
+    color: white;
+}
+#linea{
+    border-bottom: 2px solid rgb(71, 71, 71);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text2_banner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.text2_banner h4, .text2_banner p{
+    margin: 0%;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+}
+.img_perfil{
+    width: 35%;
+}
+.hoj_presen{
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;  
+}
+.per_pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5%;
+}
+.hoj_presen .per_pro h2{
+    margin-bottom: 1%;
+    color: white;
+}
+
+.per_pro p{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+/*Experiencia laboral*/
+.exp_lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#exp_lab{
+    margin-bottom: 5%;
+}
+.emp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(80, 80, 80);
+}
+.data_empr{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.data_empr h5,.data_empr p{
+    margin: 0%;
+    font-size: 12px;
+    color: white;
+}
+.desc_empl{
+    width: 70%;
+    margin-top: 3%;
+}
+.carg{
+    color: rgb(155, 86, 62);
+    font-weight: bold;
+}
+.desc_carg{
+    font-size: 12px;
+}
+.desc_carg_lista{
+    color: white;
+    font-size: 12px;
+    margin-left: 10%;
+}
+/*Habilidades*/
+#hab{
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+.caj_hab{
+    columns: 3;
+    width: 100%;
+}
+.caj_ima{
+    width: 200px;
+    height: 200px;
+}
+#ima1{
+    background-image: url("./imagenes/pensamiento_critico.png");
+}
+
+.caj_tex{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+.caj_tex h4{
+    color:rgb(68, 63, 63);
+    font-size: 100%;
+    text-align: center;
+}
+.habi{
+    margin-bottom: 5%;
+}
+/*objetivos personales*/
+.inf{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(63, 61, 61);
+
+}
+.pre_perso{
+    display: flex;
+    flex-direction: row ;
+}
+.obj_pers{
+    width: 65%;
+}
+.obj_pers h3, .p_obj_pers{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p_obj_pers{
+    text-align: justify;
+}
+.clasf{
+    columns: 2;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+.caj_por{   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right, rgb(226, 115, 10),rgb(128, 92, 60));
+    border-radius: 100%;
+}
+.caj_por{
+    margin-left: 10%;
+    color: white;
+}
+.caj_por_tex{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100px;
+    height: 25px;
+}
+.caj_por_tex P{
+    margin: 0%
+}
+/*Formación*/
+.form{
+    width: 80%;
+}
+#form{
+    margin-bottom: 5%;
+}
+.form_d{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.caj_form_img_d{
+    width: 50%;
+}
+.img_form1{
+    width:90%;
+    height: 25%;
+    margin-left: 5%;
+}
+.img_form2{
+    margin-left: 5%;
+    width: 90%;
+}
+.caj_form_tex_d{
+    width: 50%;
+    border-left: 1px solid rgb(236, 111, 53); 
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.caj_form_img_d{
+    width: 50%;
+}
+.caj_form_tex_d p{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 2%;
+}
+.form_i{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+
+}
+.caj_form_img_i{
+    width: 50%;
+}
+.caj_form_tex_i{
+    width: 50%;
+    border-right: 1px solid rgb(236, 111, 53); 
+    display: flex;
+    align-items: center;
+}
+.caj_form_tex_i p{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 2%;
+}
+/*Final*/
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.img_final{
+    width: 170px;
+    height: 170px;
+    border: 10px solid rgb(131, 122, 122);
+    border-radius: 100%;
+}
+.final h2{
+    text-align: center;
+    color:white;
+}
+/*
+div{
+    border: 2px solid red;
+}
+
+/**/
